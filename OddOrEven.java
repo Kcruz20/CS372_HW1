@@ -7,9 +7,11 @@ public class OddOrEven {
 	int inNum = input.nextInt();
 	
 	if (inNum < 10 || inNum > 100) {
+		//PT -- loop so that the user cna try again, rather than exiting the program
 		System.out.println ("Your number is invalid\n");
 	}
 	else
+		//PT -- 1 is always less than inNum, so this will run forever. i < inNum. -2
 			for (int i=0; 1 < inNum; i++) {
 				System.out.print(i);
 		if (i%2 == 0 )
