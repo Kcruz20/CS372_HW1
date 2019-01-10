@@ -5,6 +5,7 @@ public class BodyMass{
 		Scanner input = new Scanner(System.in);
 		int uWeight = input.nextInt();
 		int uHeight = input.nextInt();
+		//PT -- name these: final double KG_PER_POUND = 0.4536;
 		double Weight = uWeight * 0.4536;
 		double Height = uHeight * 0.0254;
 		double BMI = Weight * Height * Height;
